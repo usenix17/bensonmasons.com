@@ -17,7 +17,8 @@ Features
 
 ## Continuous Building and Deploying
 
-When a change is committed to `main`, the site is built and deployed automatically by the [GitHub Actions workflow](.github/workflows/hugo.yml) using [GitHub Pages](https://pages.github.com/).
+When a change is committed to `main`, the site is built and deployed
+automatically using [Cloudflare Pages](https://pages.cloudflare.com/).
 
 ## Installation
 

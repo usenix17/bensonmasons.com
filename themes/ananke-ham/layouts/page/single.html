@@ -1,7 +1,11 @@
 {{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
 {{ define "main" }}
-  <div class="flex-l mt2 mw8 center">
-    <article class="center cf pv5 ph3 ph4-ns mw7">
+  {{/* Pages can opt into a full-width showcase layout with `wide: true` in front
+       matter (e.g. the officers gallery). Default pages use a centered,
+       comfortable reading column. */}}
+  {{ $wide := .Params.wide | default false }}
+  <div class="flex-l mt2 {{ cond $wide "mw9" "mw8" }} center">
+    <article class="center cf pv5 ph3 ph4-ns {{ cond $wide "mw9" "mw7" }}">
       <header>
         <h1 class="f1">
           {{ .Title }}

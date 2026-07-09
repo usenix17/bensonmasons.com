@@ -1,6 +1,6 @@
 title = "John J Mercer | A.F. & A.M."
 baseURL = "https://bensonmasons.com"
-locale = "en-us"
+languageCode = "en-us"
 theme = "ananke-ham"
 resourceDir = "../resources"
 
