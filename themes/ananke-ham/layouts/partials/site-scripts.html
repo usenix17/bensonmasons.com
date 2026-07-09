@@ -1,4 +1,10 @@
-<!-- Lightbox2 (or other lightbox library) -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
-
+<!-- GLightbox: modern, dependency-free lightbox (keyboard + button nav, Esc/X to close) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/js/glightbox.min.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', function () {
+    if (window.GLightbox) {
+      GLightbox({ selector: '.glightbox', loop: true });
+    }
+  });
+</script>

@@ -4,7 +4,7 @@ The intent of this code base is to provide a solid Hugo site with basic features
 
 ![Dev Benson Masons Screenshot](https://github.com/sashakarcz/bensonmasons.com/blob/a6c70f3b00d6d49bdc493fb15c8bc53033ddddf2/static/images/dev.bensonmasons.com_.png)
 
-[Live Site](https://dev.bensonmasons.com/)
+[Live Site](https://bensonmasons.com/)
 
 Features
 
@@ -15,9 +15,9 @@ Features
 - Google Calendar integration
 
 
-## Continious Building and Deploying
+## Continuous Building and Deploying
 
-We have aimed to set up a build pipeline such that when a change is commited, the site is built and then served immediately using [Cloudflare Pages](https://pages.cloudflare.com/).
+When a change is committed to `main`, the site is built and deployed automatically by the [GitHub Actions workflow](.github/workflows/hugo.yml) using [GitHub Pages](https://pages.github.com/).
 
 ## Installation
 
@@ -106,7 +106,6 @@ content
 │   └── index.md
 ├── calendar
 │   └── index.md
-├── config.yaml
 ├── contact-us
 │   └── index.md
 ├── dues
@@ -141,7 +140,6 @@ content
 │   └── index.md
 ├── calendar
 │   └── index.md
-├── config.yaml
 ├── contact-us
 │   └── index.md
 ├── dues

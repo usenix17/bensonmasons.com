@@ -16,7 +16,7 @@
           </div>
           <div class="nav-links">
             {{ range .Site.Menus.main }}
-            <a class="link hover-white white-90 no-underline f5 f4-ns {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }} " href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
+            <a class="link hover-white white-90 no-underline f5 f4-ns {{ cond (eq $.Site.Language.Direction "rtl") "pl3" "pr3" }} " href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
               {{ .Name }}
             </a>
             {{ end }}

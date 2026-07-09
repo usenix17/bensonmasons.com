@@ -6,38 +6,23 @@
   }
 }
 
-.custom-table {
-  overflow-x: auto;
-  margin-top: 20px;
+/* --- Content media centering ---
+   Default pages use a centered reading column (w-100 mw7 center in single.html);
+   pages with `wide: true` (e.g. Officers) fill the width. In both cases, center
+   standalone media. display:table shrink-wraps the figure so auto margins center it. */
+.nested-copy-line-height > a {
+  display: block;
+}
+.nested-copy-line-height figure:not(.officer-image) {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nested-copy-line-height figure:not(.officer-image) img {
+  max-width: 100%;
+  height: auto;
 }
 
-.custom-table table {
-  width: 100%;
-  border-collapse: collapse;
-  text-align: center;
-  font-size: 1em;
-}
-
-.custom-table th, .custom-table td {
-  border: 1px solid #ddd;
-  padding: 10px;
-}
-
-.custom-table thead {
-  background-color: #333;
-  color: white;
-}
-
-.custom-table tbody tr:nth-child(odd) {
-  background-color: #f9f9f9;
-}
-
-.custom-table tbody tr:nth-child(even) {
-  background-color: #e8e8e8;
-}
-.custom-table tbody tr:hover {
-  background-color: #d3d3d3;
-}
 .officers-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

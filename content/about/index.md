@@ -23,7 +23,7 @@ The Mercer Men have partnered with Benson First Friday (BFF) on numerous occasio
 {{< figure src="/images/BFF.webp" >}}
 
 
-**Be on the lookout for a new annual public fundraising event coming to the Benson Masonic Temple, hosted by the Mercer Men in 2025!**
+**Be on the lookout for a new annual public fundraising event coming to the Benson Masonic Temple, hosted by the Mercer Men!**
 
 ## History
 

@@ -1,14 +1,15 @@
 title = "John J Mercer | A.F. & A.M."
 baseURL = "https://bensonmasons.com"
-languageCode = "en-us"
+locale = "en-us"
 theme = "ananke-ham"
 resourceDir = "../resources"
 
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
-Paginate = 9
-googleAnalytics = ""
 enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 9
 
 [languages]
   [languages.en]

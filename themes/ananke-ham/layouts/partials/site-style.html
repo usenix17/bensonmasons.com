@@ -6,7 +6,6 @@
 {{ range site.Params.custom_css }}
   {{ with partialCached "func/style/GetResource" . . }}{{ else }}
     <link rel="stylesheet" href="{{ relURL (.) }}">
-    <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
   {{ end }}
 {{ end }}
 
