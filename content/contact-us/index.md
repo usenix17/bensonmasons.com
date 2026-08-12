@@ -22,4 +22,4 @@ Omaha, NE 68104
 NOTE: If you plan to visit the Lodge in person, please make sure to schedule an appointment.
 
 
-{{< form-contact action="https://formspree.io/f/xgegvojz"  >}}
+# {{< form-contact action="https://formspree.io/f/xgegvojz"  >}}
