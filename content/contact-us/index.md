@@ -13,7 +13,7 @@ Whether you have questions about building rentals, becoming a Mason, or just wan
 General Inquiries: info@bensonmasons.com
 
 Hall Rental Inquiries:
-rentals@bensonmasons.com or (402) 553-0679
+rentals@bensonmasons.com
 
 5903 Maple St.
 Omaha, NE 68104
