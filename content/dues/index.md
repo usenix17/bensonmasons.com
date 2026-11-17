@@ -56,7 +56,7 @@ Mercer Lodge uses PayPal to receive online payments.
 
 Please fill out the form below to and click the &#8220;Pay Dues&#8221; button to initiate the online payment process. Once that &#8220;Pay Dues&#8221; button is clicked, you will be presented with buttons for payment options.
 
-For any issues with submitting dues online, please send an email to info@bensonmasons.com or leave a message on lodge phone at (402) 553-0679 and someone will get back to you.
+For any issues with submitting dues online, please send an email to info@bensonmasons.com and someone will get back to you.
 
 {{< rawhtml >}}
 <h2 id="dues-form">Online Payment Form</h2>
@@ -108,7 +108,7 @@ For any issues with submitting dues online, please send an email to info@bensonm
     }
 
     function validateDuesForm() {
-        if (getLastName().length < 3 || getFirstName() < 2) {
+        if (getLastName().length < 3 || getFirstName().length < 2) {
             alert('You must enter first AND last name so that we know who to mail the dues card to.');
             return false;
         }
@@ -218,8 +218,8 @@ For any issues with submitting dues online, please send an email to info@bensonm
                         console.log(orderDetails);
                         var paymentConfirmationDiv = document.querySelector('#payment-confirmation');
                         paymentConfirmationDiv.innerText = 'Success! Your payment to John J. Mercer Lodge has been completed ' +
-                            'successfully. PayPal will send you an confirmation email to the address provided. ' +
-                            'Please print this page or take note of the following reference number should you ' +
+                            'successfully. PayPal will send you a confirmation email to the address provided. ' +
+                            'Please print this page or take note of the following reference number should ' +
                             'you need it in the future: \n\n  ' +
                             'Reference ID: ' + orderDetails.purchase_units[0].payments.captures[0].id + '\n\n' +
                             'If you do not receive your dues card within 14 days, please contact the Lodge Secretary.';
