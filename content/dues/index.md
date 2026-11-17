@@ -108,7 +108,7 @@ For any issues with submitting dues online, please send an email to info@bensonm
     }
 
     function validateDuesForm() {
-        if (getLastName().length < 3 || getFirstName().length < 2) {
+        if (getLastName().length < 2 || getFirstName().length < 2) {
             alert('You must enter first AND last name so that we know who to mail the dues card to.');
             return false;
         }
