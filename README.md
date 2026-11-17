@@ -111,8 +111,6 @@ content
 │   └── index.md
 ├── dues
 │   └── index.md
-├── hall-rental
-│   └── index.md
 ├── _index.md
 ├── officers
 │   └── index.md
@@ -146,8 +144,6 @@ content
 ├── dues
 │   └── index.md
 ├──foo
-│   └── index.md
-├── hall-rental
 │   └── index.md
 ├── _index.md
 ├── officers
